@@ -77,7 +77,7 @@ const useTarea = () =>{
         let metodo = ''
         
         if (nombreTarea === ''){
-            alertaWarning('Nombre de la tarea en blanco', 'nombre')
+            alertaWarning('Nombre de la tarea en blanco', 'nombreTarea')
         }else if (estado === ''){
             alertaWarning('Estado de la tarea en blanco', 'estado')
         }else{
