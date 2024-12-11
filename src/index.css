@@ -11,3 +11,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.text-center h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+  transform: scale(1.05);
+}
+
+.shadow {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.rounded {
+  border-radius: 10px;
+}
+
+.container-fluid {
+  background-color: #f8f9fa; /* Fondo claro */
+}
+
+.text-center {
+  max-width: 500px; /* Limita el ancho del contenido */
+}

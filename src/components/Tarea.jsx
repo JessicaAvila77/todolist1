@@ -77,10 +77,21 @@ const Tarea =() =>{
 //finalagregado
 
     return (
+        
+
+
+
+
         <div className="container-fluir">
             <div className="row mt-3">
                 <div className="col-md-4 offset-md-4">
                     <div className="d-grid mx-auto">
+
+
+                        <h2 className="text-primary mb-3">To Do List</h2>
+                        <h3 className="text-secondary mb-4">Grupo 2</h3>
+
+                        
                         <button onClick={() => openModal(1)} className="btn btn-success" data-bs-toggle = "modal" data-bs-target="#modalTareas">
                             <i className="fa-solid fa-circle-plus">Agregar</i>
                         </button>
