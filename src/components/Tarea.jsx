@@ -169,7 +169,18 @@ const Tarea =() =>{
                             </div>
                             <div className="input-group mb-3">
                                 <span className="input-group-text"><i className="fa-regular fa-clipboard" /></span>
-                                <input type='text' id='estado' className="form-control" placeholder="Estado" value={estado} onChange={(e) => setEstado(e.target.value)} />
+                                <select 
+                                    id="estado" 
+                                    className="form-control" 
+                                    value={estado} 
+                                    onChange={(e) => setEstado(e.target.value)}
+                                >
+                                    <option value="">Seleccionar estado</option>
+                                    <option value="Por hacer">Por hacer</option>
+                                    <option value="En progreso">En progreso</option>
+                                    <option value="Finalizada">Finalizada</option>
+                                </select>
+                               
                             </div>
                            
                         </div>
